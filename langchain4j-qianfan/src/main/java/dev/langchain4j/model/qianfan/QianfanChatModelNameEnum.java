@@ -5,6 +5,14 @@ import lombok.Getter;
 @Getter
 public enum QianfanChatModelNameEnum {
 
+	// Good handling of Chinese content
+	ERNIE_3_5_0205("ERNIE-3.5-8K-0205", "ernie-3.5-8k-0205"),
+	ERNIE_3_5_128("ERNIE-3.5-128K", "ernie-3.5-128k"),
+	// Free LLM API
+	ERNIE_SPEED_8("ERNIE-Speed-8K", "ernie_speed"),
+	ERNIE_SPEED_128("ERNIE-Speed-128K", "ernie-speed-128k"),
+	ERNIE_LITE_8_0922("ERNIE-Lite-8K-0922", "eb-instant"),
+
     ERNIE_BOT("ERNIE-Bot", "completions"),
     ERNIE_BOT_4("ERNIE-Bot 4.0", "completions_pro"),
     ERNIE_BOT_8("ERNIE-Bot-8K", "ernie_bot_8k"),
